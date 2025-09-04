@@ -1,6 +1,7 @@
 import pygame
 from random import randint , choice
 
+#This is for the Time thing
 def calculate_time():
     time = int(pygame.time.get_ticks() / 1000)
     return time
